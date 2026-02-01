@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="uz" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OnlyClass LMS — Dashboard</title>
+    <meta name="description" content="OnlyClass LMS dashboard." />
+    <meta name="theme-color" content="#7c5cff" />
+    <link rel="canonical" href="/dashboard" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="dash" id="dashRoot">
+      <aside class="sidebar" aria-label="Sidebar">
+        <div class="sidebar__head">
+          <a class="brand" href="/" aria-label="OnlyClass LMS">
+            <span class="brand__mark" aria-hidden="true" id="brandMark"></span>
+            <span class="brand__text">OnlyClass</span>
+          </a>
+          <button class="sidebar__toggle" id="sideToggle" type="button" aria-label="Panelni yopish/ochish">
+            <span id="menuIcon" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="sidebar__scroll" id="sideScroll">
+          <div class="sideGroup">
+            <div class="sideGroup__label">Asosiy</div>
+            <a class="sideLink" href="#/bosh-sahifa" data-route="bosh-sahifa"><span id="iHome" aria-hidden="true"></span><span>Bosh sahifa</span></a>
+            <a class="sideLink" href="#/video-darslar" data-route="video-darslar"><span id="iVideo" aria-hidden="true"></span><span>Video darslar</span></a>
+            <a class="sideLink" href="#/testlar" data-route="testlar"><span id="iTest" aria-hidden="true"></span><span>Testlar</span></a>
+            <a class="sideLink" href="#/qollanmalar" data-route="qollanmalar"><span id="iFile" aria-hidden="true"></span><span>Qo‘llanmalar</span></a>
+            <a class="sideLink" href="#/statistika" data-route="statistika"><span id="iChart" aria-hidden="true"></span><span>Statistika</span></a>
+            <a class="sideLink" href="#/profil" data-route="profil"><span id="iUser" aria-hidden="true"></span><span>Profil</span></a>
+          </div>
+
+          <div class="sideGroup" id="teacherGroup" style="display:none">
+            <div class="sideGroup__label">Teacher</div>
+            <a class="sideLink" href="#/teacher-panel" data-route="teacher-panel"><span id="iPlus" aria-hidden="true"></span><span>Teacher panel</span></a>
+          </div>
+
+          <div class="sideGroup" id="adminGroup" style="display:none">
+            <div class="sideGroup__label">Admin</div>
+            <a class="sideLink" href="#/admin" data-route="admin"><span id="iShield" aria-hidden="true"></span><span>Admin panel</span></a>
+          </div>
+
+          <div class="sideGroup">
+            <div class="sideGroup__label">Yordam</div>
+            <a class="sideLink" href="#/aloqa" data-route="aloqa"><span id="iTg" aria-hidden="true"></span><span>Aloqa</span></a>
+            <button class="sideLink" id="logoutBtn" type="button" style="width:100%; background:transparent">
+              <span id="iLogout" aria-hidden="true"></span><span>Chiqish</span>
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main" aria-label="Main">
+        <header class="topbar">
+          <div class="topbar__inner">
+            <div class="welcome" id="welcomeText">Xush kelibsiz</div>
+            <div style="display:flex; align-items:center; gap:10px">
+              <button class="btn btn--ghost" id="themeBtn" type="button" aria-label="Rejim">
+                <span id="themeIcon" aria-hidden="true"></span>
+              </button>
+              <div class="profileChip">
+                <div class="avatar" id="avatarLetter">S</div>
+                <div class="who">
+                  <div class="name" id="chipName">—</div>
+                  <div class="role" id="chipRole">—</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="content" id="view"></section>
+      </main>
+    </div>
+
+    <script type="module" src="/dashboard.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,31 @@
+{
+  "tracks": [
+    {
+      "id": "track_demo_frontend",
+      "title": "Frontend (HTML/CSS/JS)",
+      "description": "Noldan boshlab zamonaviy UI/UX va real loyihalar.",
+      "imageUrl": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=1200&q=60",
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "track_demo_backend",
+      "title": "Backend (Node.js)",
+      "description": "Express, JWT, role-based access, REST API.",
+      "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=60",
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "track_ad55d477f5c7f_19c18a2b1a7",
+      "title": "Algebra va Geometriya",
+      "description": "Matimatika va Geometriya fanidan 0dan boshlab o'rganing",
+      "imageUrl": "https://aifu.uz/wp-content/uploads/2025/09/bc-matematika-min-300x200.webp",
+      "createdAt": "2026-02-01T09:57:21.447Z"
+    }
+  ],
+  "teacherProfiles": [],
+  "videos": [],
+  "tests": [],
+  "guides": [],
+  "comments": [],
+  "attempts": []
+}

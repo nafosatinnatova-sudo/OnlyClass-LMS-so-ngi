@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="uz" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="OnlyClass LMS — ilm ahli jamlangan dargoh" />
+    <meta property="og:title" content="OnlyClass LMS" />
+    <meta property="og:description" content="OnlyClass LMS — ilm ahli jamlangan dargoh" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#7c5cff" />
+    <title>OnlyClass LMS</title>
+    <link rel="canonical" href="/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="container nav__inner">
+        <a class="brand" href="#top" aria-label="OnlyClass LMS">
+          <span class="brand__mark" aria-hidden="true" id="brandMark"></span>
+          <span class="brand__text">OnlyClass LMS</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Sahifa bo'limlari">
+          <a href="#home">Bosh sahifa</a>
+          <a href="#features">Imkoniyatlar</a>
+          <a href="#pricing">Narxlar</a>
+          <a href="#contact">Aloqa</a>
+        </nav>
+
+        <div class="nav__actions">
+          <button class="btn btn--ghost" id="themeBtn" type="button" aria-label="Rejim">
+            <span id="themeIcon" aria-hidden="true"></span>
+            <span class="mobileOnly">Rejim</span>
+          </button>
+          <a class="btn btn--primary" href="/login" id="loginBtn">
+            <span id="loginIcon" aria-hidden="true"></span>
+            <span>Kirish</span>
+          </a>
+          <button class="nav__burger" id="burger" type="button" aria-label="Menyu">
+            <span id="menuIcon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+      <div class="drawer" id="drawer" aria-label="Mobile menu">
+        <a href="#home">Bosh sahifa</a>
+        <a href="#features">Imkoniyatlar</a>
+        <a href="#pricing">Narxlar</a>
+        <a href="#contact">Aloqa</a>
+        <a href="/login">Kirish</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero__grid">
+          <div class="hero__card">
+            <span class="pill" id="pill">
+              <span id="sparkIcon" aria-hidden="true"></span>
+              Premium LMS tajribasi
+            </span>
+            <h1>Ta’limning yangi darajasini kutib oling</h1>
+            <p>OnlyClass LMS — ilm ahli jamlangan dargoh</p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="/register">
+                <span id="ctaArrow" aria-hidden="true"></span>
+                <span>Boshlash</span>
+              </a>
+              <a class="btn" href="#features">
+                <span id="shieldIcon" aria-hidden="true"></span>
+                <span>Imkoniyatlar</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__stats">
+            <div class="kpi">
+              <div class="kpi__top">
+                <div>
+                  <div class="kpi__label">Videodarslar</div>
+                  <div class="kpi__value">∞</div>
+                </div>
+                <div class="kpi__icon" id="kpiVideo" aria-hidden="true"></div>
+              </div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__top">
+                <div>
+                  <div class="kpi__label">Testlar</div>
+                  <div class="kpi__value">Tez</div>
+                </div>
+                <div class="kpi__icon" id="kpiTest" aria-hidden="true"></div>
+              </div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__top">
+                <div>
+                  <div class="kpi__label">Qo‘llanmalar</div>
+                  <div class="kpi__value">PDF</div>
+                </div>
+                <div class="kpi__icon" id="kpiFile" aria-hidden="true"></div>
+              </div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__top">
+                <div>
+                  <div class="kpi__label">Support</div>
+                  <div class="kpi__value">24/7</div>
+                </div>
+                <div class="kpi__icon" id="kpiSupport" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container">
+          <h2 class="section__title">OnlyClass LMS imkoniyatlari</h2>
+          <p class="section__subtitle">
+            Nima uchun OnlyClass? O‘quvchi uchun ham, ustoz uchun ham — admin nazoratida, silliq va zamonaviy UI/UX bilan.
+          </p>
+
+          <div class="grid3" role="list">
+            <article class="feature" role="listitem">
+              <div class="feature__icon" id="fVideo" aria-hidden="true"></div>
+              <h3>Barcha turdagi videodarslar</h3>
+              <p>O‘z kasbini noldan boshlovchilar uchun individual platforma.</p>
+            </article>
+            <article class="feature" role="listitem">
+              <div class="feature__icon" id="fMentor" aria-hidden="true"></div>
+              <h3>Tajribali mentorlar</h3>
+              <p>Tarjibali mentorlar bilan yozib olingan sifatli videodarslar.</p>
+            </article>
+            <article class="feature" role="listitem">
+              <div class="feature__icon" id="fTest" aria-hidden="true"></div>
+              <h3>Testlar va qo‘llanmalar</h3>
+              <p>Har bir darsni o‘zlashtirish uchun testlar, qo‘llanmalar joylangan.</p>
+            </article>
+            <article class="feature" role="listitem">
+              <div class="feature__icon" id="fSupport" aria-hidden="true"></div>
+              <h3>Support xizmati</h3>
+              <p>24/7 ishlaydigan support — sizga har doim yordam beradi.</p>
+            </article>
+            <article class="feature" role="listitem">
+              <div class="feature__icon" id="fCert" aria-hidden="true"></div>
+              <h3>Sertifikat</h3>
+              <p>Darslarni tugatgach, ustoz va admin test qilib, sertifikat beradi.</p>
+            </article>
+            <article class="feature" role="listitem">
+              <div class="feature__icon" id="fShield" aria-hidden="true"></div>
+              <h3>Role + Admin nazorati</h3>
+              <p>Student default. Admin xohlagan foydalanuvchini Teacher qiladi, block/unblock qiladi.</p>
+            </article>
+          </div>
+
+          <div class="split" style="margin-top:14px">
+            <section class="panel">
+              <h3>O‘quvchilar imkoniyatlari</h3>
+              <ul class="bullets">
+                <li>Barcha videodarslardan foydalana oladi</li>
+                <li>Har bir dars uchun test va qo‘llanmalardan foydalanadi</li>
+                <li>O‘quvchilar va o‘qituvchilar statistikasini ko‘ra oladi</li>
+              </ul>
+            </section>
+            <section class="panel">
+              <h3>Teacher imkoniyatlari</h3>
+              <ul class="bullets">
+                <li>Profil yarating va o‘zingizni tanishtiring (20 ta belgidan oshmaydi)</li>
+                <li>Video, test, qo‘llanma joylang va ulab boring</li>
+                <li>O‘quvchilarni kuzating, o‘z statistikangizni ko‘ring</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pricing">
+        <div class="container">
+          <h2 class="section__title">Narxlar</h2>
+          <p class="section__subtitle">Rasmiy va ochiq: narx siyosati doim shu yerda e’lon qilinadi.</p>
+          <div class="panel pricing">
+            <p class="pricing__big">Bizda barcha materiallar mutlaqo bepul.</p>
+            <p class="pricing__note">
+              Agar sayt pullik bo‘lsa — aynan shu bo‘limda shaffof tarzda e’lon qilamiz.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <h2 class="section__title">Aloqa</h2>
+          <p class="section__subtitle">Telegram yoki telefon orqali tezkor bog‘lanish.</p>
+
+          <div class="contactCards">
+            <a class="contact" href="https://t.me/OnlyClassLMS_support" target="_blank" rel="noreferrer">
+              <div class="contact__left">
+                <div class="contact__icon" id="tg1" aria-hidden="true"></div>
+                <div>
+                  <div class="contact__label">Telegram Support</div>
+                  <div class="contact__value">t.me/OnlyClassLMS_support</div>
+                </div>
+              </div>
+              <span class="tag">Open</span>
+            </a>
+            <a class="contact" href="https://t.me/OnlyClassLMSsupport" target="_blank" rel="noreferrer">
+              <div class="contact__left">
+                <div class="contact__icon" id="tg2" aria-hidden="true"></div>
+                <div>
+                  <div class="contact__label">Telegram Support</div>
+                  <div class="contact__value">t.me/OnlyClassLMSsupport</div>
+                </div>
+              </div>
+              <span class="tag">Open</span>
+            </a>
+            <a class="contact" href="tel:+998700103658">
+              <div class="contact__left">
+                <div class="contact__icon" id="ph1" aria-hidden="true"></div>
+                <div>
+                  <div class="contact__label">Telefon</div>
+                  <div class="contact__value">+998 70 010 36 58</div>
+                </div>
+              </div>
+              <span class="tag">Call</span>
+            </a>
+            <a class="contact" href="tel:+998700103758">
+              <div class="contact__left">
+                <div class="contact__icon" id="ph2" aria-hidden="true"></div>
+                <div>
+                  <div class="contact__label">Telefon</div>
+                  <div class="contact__value">+998 70 010 37 58</div>
+                </div>
+              </div>
+              <span class="tag">Call</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="brand">
+          <span class="brand__mark" aria-hidden="true" id="brandMark2"></span>
+          <div>
+            <div style="font-weight:900">OnlyClass LMS</div>
+            <div class="copyright">OnlyClass LMS — barcha huquqlar himoyalangan ©</div>
+          </div>
+        </div>
+        <nav class="footer__links" aria-label="Rasmiy havolalar">
+          <a href="#top">Bosh sahifa</a>
+          <a href="#features">Imkoniyatlar</a>
+          <a href="/login">Kirish</a>
+          <a href="#contact">Support</a>
+          <a href="/terms">Terms</a>
+          <a href="/privacy">Privacy</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
+

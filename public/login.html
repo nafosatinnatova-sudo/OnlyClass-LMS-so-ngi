@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="uz" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OnlyClass LMS — Kirish</title>
+    <meta name="description" content="OnlyClass LMS kirish sahifasi." />
+    <meta name="theme-color" content="#7c5cff" />
+    <link rel="canonical" href="/login" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="container nav__inner">
+        <a class="brand" href="/" aria-label="OnlyClass LMS">
+          <span class="brand__mark" aria-hidden="true" id="brandMark"></span>
+          <span class="brand__text">OnlyClass LMS</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Sahifa bo'limlari">
+          <a href="/#home">Bosh sahifa</a>
+          <a href="/#features">Imkoniyatlar</a>
+          <a href="/#pricing">Narxlar</a>
+          <a href="/#contact">Aloqa</a>
+        </nav>
+
+        <div class="nav__actions">
+          <button class="btn btn--ghost" id="themeBtn" type="button" aria-label="Rejim">
+            <span id="themeIcon" aria-hidden="true"></span>
+            <span class="mobileOnly">Rejim</span>
+          </button>
+          <a class="btn" href="/register" id="goRegister">
+            <span id="plusIcon" aria-hidden="true"></span>
+            <span>Ro‘yxatdan o‘tish</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="authWrap">
+      <section class="glass" style="width:min(560px, calc(100% - 40px))">
+        <h2 class="formTitle">Kirish</h2>
+        <p class="hint">
+          Admin demo: <code>admin@onlyclass.local</code> / <code>OnlyClass123!</code>
+        </p>
+
+        <form id="loginForm" autocomplete="on">
+          <div class="field">
+            <label for="loginEmail">Email</label>
+            <input id="loginEmail" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="loginPassword">Parol</label>
+            <input id="loginPassword" name="password" type="password" placeholder="Parol" required />
+          </div>
+
+          <button class="btn btn--primary" type="submit" style="width:100%; justify-content:center">
+            <span id="loginIcon2" aria-hidden="true"></span>
+            <span>Kirish</span>
+          </button>
+
+          <div class="error" id="loginError"></div>
+        </form>
+
+        <p class="hint" style="margin-top:14px">
+          Hisobingiz yo‘qmi? <a href="/register" style="text-decoration:underline">Ro‘yxatdan o‘ting</a>.
+        </p>
+        <p class="hint" style="margin-top:8px">
+          Kirish orqali siz <a href="/terms" style="text-decoration:underline">Terms</a> va <a href="/privacy" style="text-decoration:underline">Privacy</a>ga rozilik bildirasiz.
+        </p>
+      </section>
+    </main>
+
+    <script type="module" src="/login.js"></script>
+  </body>
+</html>
+

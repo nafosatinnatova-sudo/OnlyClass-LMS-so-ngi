@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="uz" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OnlyClass LMS — 404</title>
+    <meta name="description" content="Sahifa topilmadi." />
+    <meta name="theme-color" content="#7c5cff" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="container nav__inner">
+        <a class="brand" href="/" aria-label="OnlyClass LMS">
+          <span class="brand__mark" aria-hidden="true" id="brandMark"></span>
+          <span class="brand__text">OnlyClass LMS</span>
+        </a>
+        <div class="nav__actions">
+          <a class="btn" href="/"><span>Bosh sahifa</span></a>
+          <a class="btn btn--primary" href="/login"><span>Kirish</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="panel" style="text-align:center">
+          <div class="pill" style="margin:0 auto 12px; width:max-content">
+            <span aria-hidden="true" id="sparkIcon"></span>
+            404
+          </div>
+          <h2 class="section__title" style="margin-top:0">Sahifa topilmadi</h2>
+          <p class="section__subtitle" style="max-width:60ch; margin-left:auto; margin-right:auto">
+            Siz izlagan sahifa o‘chirilgan bo‘lishi yoki manzil noto‘g‘ri kiritilgan bo‘lishi mumkin.
+          </p>
+
+          <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:12px">
+            <a class="btn btn--primary" href="/"><span>Bosh sahifa</span></a>
+            <a class="btn" href="/dashboard"><span>Dashboard</span></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module">
+      import { icon } from "/icons.js";
+      const mark = document.getElementById("brandMark");
+      const spark = document.getElementById("sparkIcon");
+      if (mark) mark.innerHTML = icon("spark");
+      if (spark) spark.innerHTML = icon("spark");
+    </script>
+  </body>
+</html>
+

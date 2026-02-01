@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "admin_ff2f06324f6da_19c186b8889",
+      "fullName": "OnlyClass",
+      "age": null,
+      "email": "admin@onlyclass.local",
+      "phone": null,
+      "role": "admin",
+      "blocked": false,
+      "createdAt": "2026-02-01T08:57:06.441Z",
+      "passwordHash": "$2a$10$5Hr5L3hNMQEqMrpnpt7GQuCfqUrdEesxMNSM4mscfhcGIjbzGQ99K"
+    },
+    {
+      "id": "user_32560b1c3af1e8_19c18a5629f",
+      "fullName": "Demo Student",
+      "age": 18,
+      "email": "student@onlyclass.local",
+      "phone": "+998700000001",
+      "role": "student",
+      "blocked": false,
+      "createdAt": "2026-02-01T10:00:17.823Z",
+      "passwordHash": "$2a$10$yi2nD703.ZaunwkZtjOUFuig4n.3edz0P1QuwBS.kus1Bhb7DV/HK",
+      "stats": {
+        "videosWatched": 1,
+        "testsAvg": 84,
+        "guidesDownloaded": 1,
+        "ratingPlace": 12
+      }
+    },
+    {
+      "id": "user_d1969140dcda48_19c18a5631e",
+      "fullName": "Demo Teacher",
+      "age": 24,
+      "email": "teacher@onlyclass.local",
+      "phone": "+998700000002",
+      "role": "teacher",
+      "blocked": false,
+      "createdAt": "2026-02-01T10:00:17.950Z",
+      "passwordHash": "$2a$10$L2LL6B9iGmiQnIKapXcwkO2utAMIFt3MBxfw.HcNQIeBIRwxC9n02",
+      "stats": {
+        "videosWatched": 0,
+        "testsAvg": 0,
+        "guidesDownloaded": 0,
+        "ratingPlace": 3
+      }
+    }
+  ]
+}
